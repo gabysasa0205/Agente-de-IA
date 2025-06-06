@@ -1,6 +1,9 @@
-# documentacion
+# Documentacion
 Este proyecto implementa un agente inteligente en n8n que responde preguntas relacionadas con el bienestar emocional, utilizando información real extraída de documentos PDF. 
 Se basa en un enfoque RAG (Retrieval-Augmented Generation), integrando Ollama, Qdrant, embeddings locales y procesamiento de archivos desde Google Drive.
+
+
+
 
 **Tecnologías utilizadas:**
 
@@ -74,6 +77,10 @@ Se añadió el nodo embeddings configurado con nomic-embed-text:latest y nuevame
 Se escribió el prompt personalizado (ver sección siguiente).
 
 
+
+
+
+
 **Prompt utilizado:**
 Eres un agente empático experto en bienestar emocional.
 
@@ -87,11 +94,18 @@ Realiza la búsqueda con la herramienta BUSCAR y responde usando solo con la inf
 
 
 
+
+
+
 **Documento base utilizado**
 
 Guía de Bienestar Emocional para el Estudiantado de la Universidad (PDF)
 
 Este documento fue fragmentado, embebido y cargado como base de conocimiento.
+
+
+
+
 
 
 **Ejemplo de uso:**
