@@ -34,9 +34,9 @@ Se basa en un enfoque RAG (Retrieval-Augmented Generation), integrando Ollama, Q
 
 **Paso 1: Preparación del entorno**
 
-Se instaló n8n, al clonar el repositorio de Github https://github.com/n8n-io/self-hosted-ai-starter-kit en el equipo.
-Se instaló Docker Desktop, la cual es una herramienta que ejecuta aplicaciones utilizando contenedores que almacenan todo lo que esta necesita para poder funcionar.
-Y se instaló Ollama, una plataforma que permite correr modelos de lenguaje de manera local sin depender de servicios externos, sirve para descargar y ejecutar modelos (ej: llama3, mistral) y embeddings.
+- Se instaló n8n, al clonar el repositorio de Github https://github.com/n8n-io/self-hosted-ai-starter-kit en el equipo.
+- Se instaló Docker Desktop, la cual es una herramienta que ejecuta aplicaciones utilizando contenedores que almacenan todo lo que esta necesita para poder funcionar.
+- Se instaló Ollama, una plataforma que permite correr modelos de lenguaje de manera local sin depender de servicios externos, sirve para descargar y ejecutar modelos (ej: llama3, mistral) y embeddings.
 
 Una vez clonado y configurado el entorno de n8n, se creo una cuenta para poder ingresar, se creó el workflow donde se pondrán los nodos más adelante y se descargó el modelo a utilizar llama3.2:latest desde el contenedor Ollama en Docker desktop, este modelo sirve para procesar entradas y generar salidas inteligentes basado en lo que ha aprendido.
 
