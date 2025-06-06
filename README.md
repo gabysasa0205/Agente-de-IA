@@ -1,4 +1,4 @@
-manera?# Documentación
+# Documentación
 Este proyecto implementa un agente inteligente en n8n que responde preguntas relacionadas con el bienestar emocional, utilizando información real extraída de documentos PDF. 
 Se basa en un enfoque RAG (Retrieval-Augmented Generation), integrando Ollama, Qdrant, embeddings locales y procesamiento de archivos desde Google Drive.
 
